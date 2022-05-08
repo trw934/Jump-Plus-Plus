@@ -1,0 +1,27 @@
+﻿  pch.cpp
+  ActionTests.cpp
+  AttributedBar.cpp
+  AttributedFoo.cpp
+  AttributedTests.cpp
+  Avatar.cpp
+  DatumTests.cpp
+  DefaultHashTests.cpp
+  EventSubscribers.cpp
+  EventTests.cpp
+  FactoryTests.cpp
+  Foo.cpp
+  FooTests.cpp
+  GameObjectTests.cpp
+  HashmapTests.cpp
+  JsonIntegerParseHelper.cpp
+  JsonParseCoordinatorTests.cpp
+  JsonTestParseHelper.cpp
+  ScopeTests.cpp
+  SListTests.cpp
+  TestModuleInitialize.cpp
+  Generating Code...
+  Compiling...
+  VectorTests.cpp
+  Generating Code...
+     Creating library C:\Dev\Cohort18-Private\Prog2Final\ZeroPercentCoverage\FIEAGameEngine\build\bin\UnitTest.Library.Desktop\x64\Debug\UnitTest.Library.Desktop.lib and object C:\Dev\Cohort18-Private\Prog2Final\ZeroPercentCoverage\FIEAGameEngine\build\bin\UnitTest.Library.Desktop\x64\Debug\UnitTest.Library.Desktop.exp
+  UnitTest.Library.Desktop.vcxproj -> C:\Dev\Cohort18-Private\Prog2Final\ZeroPercentCoverage\FIEAGameEngine\build\bin\UnitTest.Library.Desktop\x64\Debug\UnitTest.Library.Desktop.dll

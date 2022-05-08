@@ -1,0 +1,31 @@
+﻿  pch.cpp
+  Action.cpp
+  ActionCreateAction.cpp
+  ActionDestroyAction.cpp
+  ActionIncrement.cpp
+  ActionList.cpp
+  ActionListIf.cpp
+  Attributed.cpp
+  Datum.cpp
+  EventMessageAttributed.cpp
+  EventPublisher.cpp
+  EventQueue.cpp
+  EventSubscriber.cpp
+  GameClock.cpp
+  GameObject.cpp
+  GameState.cpp
+  GameTime.cpp
+  IJsonParseHelper.cpp
+  JsonParseCoordinator.cpp
+  JsonTableParseHelper.cpp
+  Reaction.cpp
+  Generating Code...
+  Compiling...
+  ReactionAttributed.cpp
+  Scope.cpp
+  TypeRegistry.cpp
+  EnemyBase.cpp
+  EnemyHorizontal.cpp
+  EnemyJump.cpp
+  Generating Code...
+  Library.Desktop.vcxproj -> C:\Dev\Cohort18-Private\Prog2Final\ZeroPercentCoverage\FIEAGameEngine\build\bin\Library.Desktop\x64\Debug\Library.Desktop.lib

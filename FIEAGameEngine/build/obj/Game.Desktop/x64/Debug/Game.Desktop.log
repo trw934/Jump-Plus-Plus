@@ -1,0 +1,16 @@
+﻿  pch.cpp
+  ActionSetPlayerHeight.cpp
+  InputListener.cpp
+  DestructablePlatform.cpp
+  Level.cpp
+  LevelManager.cpp
+  MoveablePlatform.cpp
+  TimePlatform.cpp
+  AudioManager.cpp
+  Platform.cpp
+  PlayerProjectile.cpp
+  PlayerManager.cpp
+  Program.cpp
+  Renderer.cpp
+  Generating Code...
+  Game.Desktop.vcxproj -> C:\Dev\Cohort18-Private\Prog2Final\ZeroPercentCoverage\FIEAGameEngine\build\bin\Game.Desktop\x64\Debug\Game.Desktop.exe

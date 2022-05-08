@@ -1,0 +1,78 @@
+{
+  "Name": {
+    "type": "string",
+    "value": "Test Action"
+  },
+  "Actions": {
+    "type": "table",
+    "class": "Action",
+    "value": [
+      {
+        "type": "table",
+        "class": "ActionIncrement",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Nested Action 1"
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "ActionList",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Nested Action 2"
+          },
+          "Actions": {
+            "type": "table",
+            "class": "Action",
+            "value": [
+              {
+                "type": "table",
+                "class": "ActionIncrement",
+                "value": {
+                  "Name": {
+                    "type": "string",
+                    "value": "Nested Nested Action 1"
+                  }
+                }
+              },
+              {
+                "type": "table",
+                "class": "ActionIncrement",
+                "value": {
+                  "Name": {
+                    "type": "string",
+                    "value": "Nested Nested Action 2"
+                  }
+                }
+              },
+              {
+                "type": "table",
+                "class": "ActionListIf",
+                "value": {
+                  "Name": {
+                    "type": "string",
+                    "value": "Nested Nested Action 3"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "ActionListIf",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Nested Action 3"
+          }
+        }
+      }
+    ]
+  }
+}

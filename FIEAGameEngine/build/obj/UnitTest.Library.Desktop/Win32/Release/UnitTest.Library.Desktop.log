@@ -1,0 +1,29 @@
+﻿  pch.cpp
+  ActionTests.cpp
+  AttributedBar.cpp
+  AttributedFoo.cpp
+  AttributedTests.cpp
+  Avatar.cpp
+  DatumTests.cpp
+  DefaultHashTests.cpp
+  EventSubscribers.cpp
+  EventTests.cpp
+  FactoryTests.cpp
+  Foo.cpp
+  FooTests.cpp
+  GameObjectTests.cpp
+  HashmapTests.cpp
+  JsonIntegerParseHelper.cpp
+  JsonParseCoordinatorTests.cpp
+  JsonTestParseHelper.cpp
+  ScopeTests.cpp
+  SListTests.cpp
+  TestModuleInitialize.cpp
+  Compiling...
+  VectorTests.cpp
+     Creating library C:\Dev\Cohort18-Private\Prog2Final\ZeroPercentCoverage\FIEAGameEngine\build\bin\UnitTest.Library.Desktop\Win32\Release\UnitTest.Library.Desktop.lib and object C:\Dev\Cohort18-Private\Prog2Final\ZeroPercentCoverage\FIEAGameEngine\build\bin\UnitTest.Library.Desktop\Win32\Release\UnitTest.Library.Desktop.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 4208 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  UnitTest.Library.Desktop.vcxproj -> C:\Dev\Cohort18-Private\Prog2Final\ZeroPercentCoverage\FIEAGameEngine\build\bin\UnitTest.Library.Desktop\Win32\Release\UnitTest.Library.Desktop.dll

@@ -1,0 +1,88 @@
+{
+  "A": {
+    "type": "integer",
+    "value": 23
+  },
+  "Name": {
+    "type": "string",
+    "value": "Root"
+  },
+  "Transform": {
+    "type": "matrix",
+    "value": "mat4x4((1, 2, 3, 4), (5, 6, 7, 8), (9, 10, 11, 12), (13, 14, 15, 16))"
+  },
+  "Tag": {
+    "type": "string",
+    "value": "TestTag"
+  },
+  "Sprite": {
+    "type": "string",
+    "value": "TestSpriteFileLocation.png"
+  },
+  "Children": {
+    "type": "table",
+    "class": "GameObject",
+    "value": [
+      {
+        "type": "table",
+        "class": "Avatar",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Bingus"
+          },
+          "Tag": {
+            "type": "string",
+            "value": "Player"
+          },
+          "HitPoints": {
+            "type": "integer",
+            "value": 100
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "Avatar",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Lord Bungaloid"
+          },
+          "Tag": {
+            "type": "string",
+            "value": "Enemy"
+          },
+          "HitPoints": {
+            "type": "integer",
+            "value": 5000
+          }
+        }
+      }
+    ]
+  },
+  "Actions": {
+    "type": "table",
+    "class": "Action",
+    "value": [
+      {
+        "type": "table",
+        "class": "ActionIncrement",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Increment A"
+          },
+          "Target": {
+            "type": "string",
+            "value": "A"
+          },
+          "Step": {
+            "type": "float",
+            "value": 2.5
+          }
+        }
+      }
+    ]
+  }
+}

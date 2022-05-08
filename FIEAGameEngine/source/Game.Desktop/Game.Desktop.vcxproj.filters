@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="LevelStuff\LevelManager.cpp" />
+    <ClCompile Include="LevelStuff\Level.cpp" />
+    <ClCompile Include="LevelStuff\Platform.cpp" />
+    <ClCompile Include="Player\PlayerManager.cpp" />
+    <ClCompile Include="LevelStuff\DestructablePlatform.cpp" />
+    <ClCompile Include="LevelStuff\MoveablePlatform.cpp" />
+    <ClCompile Include="LevelStuff\TimePlatform.cpp" />
+    <ClCompile Include="Player\PlayerProjectile.cpp" />
+    <ClCompile Include="Rendering\Renderer.cpp" />
+    <ClCompile Include="Input\InputListener.cpp" />
+    <ClCompile Include="Output\AudioManager.cpp" />
+    <ClCompile Include="ActionSetPlayerHeight.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="LevelStuff\LevelManager.h" />
+    <ClInclude Include="LevelStuff\Level.h" />
+    <ClInclude Include="LevelStuff\Platform.h" />
+    <ClInclude Include="Player\PlayerManager.h" />
+    <ClInclude Include="LevelStuff\DestructablePlatform.h" />
+    <ClInclude Include="LevelStuff\MoveablePlatform.h" />
+    <ClInclude Include="LevelStuff\TimePlatform.h" />
+    <ClInclude Include="Player\PlayerProjectile.h" />
+    <ClInclude Include="Rendering\Renderer.h" />
+    <ClInclude Include="Input\InputListener.h" />
+    <ClInclude Include="Input\InputEventPayload.h" />
+    <ClInclude Include="Score\score.h" />
+    <ClInclude Include="Output\AudioManager.h" />
+    <ClInclude Include="ActionSetPlayerHeight.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\doodle jump.png" />
+    <Image Include="Content\Title_Screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JSON\Levels.json" />
+    <None Include="JSON\Test.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="highscore.txt" />
+  </ItemGroup>
+</Project>
